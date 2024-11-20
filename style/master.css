@@ -1,0 +1,243 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #444;
+}
+
+nav a {
+    color: #aaa;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: 0.5rem;
+}
+
+.bg-pink-500 { background-color: #ec4899; }
+.bg-blue-500 { background-color: #3b82f6; }
+.bg-purple-500 { background-color: #8b5cf6; }
+.bg-indigo-500 { background-color: #6366f1; }
+.bg-gray-500 { background-color: #6b7280; }
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.font-bold {
+    font-weight: 700; /* Убрано дублирование */
+}
+
+.text-gray-400 {
+    color: #9ca3af;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.footer-section {
+    display: flex;
+    align-items: center;
+}
+
+.footer-section img {
+    margin-right: 1rem;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center;
+}
+
+.max-w-6xl {
+    max-width: 100rem; /* Убрано дублирование */
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+.space-x-4 > * + * {
+    margin-left: 1rem;
+}
+
+.hover\:text-yellow-500:hover {
+    color: #D69E2E;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.space-x-2 > * + * {
+    margin-left: 0.5rem;
+}
+
+.py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.mb-12 {
+    margin-bottom: 3rem;
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gap-8 {
+    gap: 2rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-8 > * {
+    margin: 1rem;
+}
+
+.w-48 {
+    width: 12rem;
+}
+
+.h-48 {
+    height: 12rem;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.quote.quote {
+    font-size: 4rem;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: -1rem;
+}
+
+.quote-text {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
